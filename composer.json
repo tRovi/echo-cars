@@ -1,0 +1,16 @@
+{
+    "name": "ins/echo-cars",
+    "description": "echo cars",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Car\\BMW\\": "src/Car/BMW",
+            "Car\\Audi\\": "src/Car/Audi"
+        }
+    }
+}
